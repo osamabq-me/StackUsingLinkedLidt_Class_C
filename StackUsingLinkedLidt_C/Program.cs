@@ -62,6 +62,7 @@ namespace StackUsingLinkedLidt_CSharp
         }
         static void Main(string[] args)
         {
+            Stacks s = new Stacks();
 
 
         }
