@@ -50,17 +50,20 @@ namespace StackUsingLinkedLidt_CSharp
             Node tmp;
             if (empty())//if Stack is empty
                 Console.WriteLine("\n Stack Empty");
+            else
+            {
+                //traverse the List from beginning till end
+                for(tmp = top; tmp != null; tmp = tmp.next)
+                {
+                    Console.WriteLine(tmp.info);
+                }
+                Console.WriteLine();
+            }
         }
-
-
-
-
-
-    }
-    class Program
-    {
         static void Main(string[] args)
         {
+
+
         }
     }
 }
