@@ -42,7 +42,8 @@ namespace StackUsingLinkedLidt_CSharp
         }
         public void pop()
         {
-
+            Console.WriteLine("\n The poped element is: "+ top.info);
+            top = top.next;
         }
 
 
