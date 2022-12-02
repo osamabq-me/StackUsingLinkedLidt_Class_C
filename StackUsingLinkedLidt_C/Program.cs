@@ -48,6 +48,8 @@ namespace StackUsingLinkedLidt_CSharp
         public void Display()
         {
             Node tmp;
+            if (empty())//if Stack is empty
+                Console.WriteLine("\n Stack Empty");
         }
 
 
