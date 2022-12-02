@@ -38,7 +38,7 @@ namespace StackUsingLinkedLidt_CSharp
             fresh = new Node(element,null);
             fresh.next = top;
             top = fresh;
-            Console.WriteLine("\n"+ element + "Pushed.");
+            Console.WriteLine("\n"+ element + "  Pushed.");
         }
         public void pop()
         {
@@ -79,7 +79,7 @@ namespace StackUsingLinkedLidt_CSharp
                 {
 
                     case '1':
-                        Console.Write("\n Enter a number");
+                        Console.Write("\n Enter a number: ");
                         int num = Convert.ToInt32(Console.ReadLine());
                         s.push(num);
                         break;
