@@ -18,9 +18,27 @@ namespace StackUsingLinkedLidt_CSharp
         }
     }
 
+    class Stacks
+    {
+        Node top;
+        public Stacks()
+        {
+            top = null;
+        }
+        bool empty()
+        {
+            if (top == null)
+                return (true);
+            else
+                return (false);
+        }
 
 
 
+
+
+
+    }
     class Program
     {
         static void Main(string[] args)
