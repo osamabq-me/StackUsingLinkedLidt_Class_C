@@ -39,6 +39,9 @@ namespace StackUsingLinkedLidt_CSharp
             fresh.next = top;
             top = fresh;
             Console.WriteLine("\n"+ element + "Pushed.");
+        }
+        public void pop()
+        {
 
         }
 
