@@ -37,6 +37,9 @@ namespace StackUsingLinkedLidt_CSharp
             Node fresh;
             fresh = new Node(element,null);
             fresh.next = top;
+            top = fresh;
+            Console.WriteLine("\n"+ element + "Pushed.");
+
         }
 
 
